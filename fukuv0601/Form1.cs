@@ -22,7 +22,7 @@ namespace fukuv0601
             if (label1.Left < 0) //0ÇÊÇËè¨Ç≥Ç¢éû
             {
                 vx = Math.Abs(vx + (vx / 10));
-            }            
+            }
             if (label1.Right > ClientSize.Width) //ïù
             {
                 vx = -Math.Abs(vx + (vx / 10));
@@ -45,7 +45,7 @@ namespace fukuv0601
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int vx = -10;
+            int vx = -10;            
         }
 
         private void button2_Click(object sender, EventArgs e)
