@@ -37,7 +37,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(189, 204);
+            button1.Location = new Point(242, 361);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -48,11 +48,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(376, 204);
+            label1.Location = new Point(370, 236);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(39, 15);
             label1.TabIndex = 1;
-            label1.Text = "label1";
+            label1.Text = "(・　・)";
             label1.Click += label1_Click;
             // 
             // timer1
@@ -62,7 +62,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(562, 204);
+            button2.Location = new Point(639, 361);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 2;
