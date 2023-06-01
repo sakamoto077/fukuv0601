@@ -21,19 +21,19 @@ namespace fukuv0601
 
             if (label1.Left < 0) //0ÇÊÇËè¨Ç≥Ç¢éû
             {
-                vx = 50;
+                vx = Math.Abs(vx + (vx / 10));
+            }            
+            if (label1.Right > ClientSize.Width) //ïù
+            {
+                vx = -Math.Abs(vx + (vx / 10));
             }
             if (label1.Top < 0)
             {
-                vy = 30;
+                vy = Math.Abs(vy + (vy / 10));
             }
-            if (label1.Right > 805)
+            if (label1.Bottom > ClientSize.Height)Å@//çÇÇ≥
             {
-                vx = -10;
-            }
-            if (label1.Bottom > 438)
-            {
-                vy = -90;
+                vy = -Math.Abs(vy + (vy / 10));
             }
 
 
