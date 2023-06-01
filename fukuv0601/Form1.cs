@@ -9,7 +9,7 @@ namespace fukuv0601
         public Form1()
         {
             InitializeComponent();
-
+            //MessageBox.Show($"{label1.Bottom}");
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -25,13 +25,13 @@ namespace fukuv0601
             }
             if (label1.Top < 0)
             {
-                vy = 10;
+                vy = 30;
             }
             if (label1.Right > 805)
             {
-                vx = -30;
+                vx = -10;
             }
-            if (label1.Top > 438)
+            if (label1.Bottom > 438)
             {
                 vy = -90;
             }
