@@ -22,7 +22,7 @@ namespace fukuv0601
         private void label1_Click(object sender, EventArgs e)
         {
                timer1.Stop();
-            MessageBox.Show("ç‚ñ{Å@ïj");
+            label1.Text="ç‚ñ{Å@ïj";
         }
 
         private void timer1_Tick(object sender, EventArgs e)
